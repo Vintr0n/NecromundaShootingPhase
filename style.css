@@ -1,0 +1,490 @@
+<style>
+	
+	
+@media (min-width:320px)  { 
+
+
+	  body {
+	  
+	  background-color: #332e2b;
+	 
+ 	 background-image: url(5.png);
+	  background-size: cover;
+	  background-attachment: fixed;
+	  background-repeat: no-repeat; 
+	  
+	  
+	  }
+	  
+      html, body {
+      min-height: 100%;
+	  
+      }
+      body, div, form, input, select, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: monospace, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      color: #ff9100;
+      }
+      h1 {
+      margin: 0;
+      font-weight: 400;
+      }
+      h3 {
+      margin: 10px 0;
+      color: #ff9100;
+      }
+      .main-block {
+      display: flex;
+      justify-content: start;
+      align-items: left;
+		padding-top: 265px;
+      }
+      form {
+      width: 100%;
+      padding: 1px;
+	  align-items: left;
+	  justify-content: start;
+	  	 
+	 min-height: 100%;
+
+      }
+      fieldset {
+      border: none;
+      border-top: 1px solid #c76700;
+      }
+
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+
+}
+input {
+  display: inline-block;
+  float: left;
+
+}
+
+.ToHitOutput, .ToWoundOutput,.ArmourSaveOutput {
+font-size: 25px;
+text-indent: 35px;
+line-height: 1;
+}​
+
+
+}
+@media (min-width:481px)  { 
+
+
+
+	  body {
+	  
+	  background-color: #332e2b;
+	 
+ 	 background-image: url(5.png);
+	  background-size: cover;
+	  background-attachment: fixed;
+	  background-repeat: no-repeat; 
+	  
+	  
+	  }
+	  
+      html, body {
+      min-height: 100%;
+	  
+      }
+      body, div, form, input, select, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: monospace, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      color: #ff9100;
+      }
+      h1 {
+      margin: 0;
+      font-weight: 400;
+      }
+      h3 {
+      margin: 10px 0;
+      color: #ff9100;
+      }
+      .main-block {
+      display: flex;
+      justify-content: start;
+      align-items: left;
+		padding-top: 265px;
+      }
+      form {
+      width: 100%;
+      padding: 1px;
+	  align-items: left;
+	  justify-content: start;
+	  	 
+	 min-height: 100%;
+
+      }
+      fieldset {
+      border: none;
+      border-top: 1px solid #c76700;
+      }
+
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+
+}
+input {
+  display: inline-block;
+  float: left;
+
+}
+
+.ToHitOutput, .ToWoundOutput,.ArmourSaveOutput {
+font-size: 25px;
+text-indent: 35px;
+line-height: 1;
+}​
+
+
+ }
+@media (min-width:641px)  { 
+
+
+
+
+	  body {
+	  
+	  background-color: #332e2b;
+	 
+ 	 background-image: url(5.png);
+	  background-size: cover;
+	  background-attachment: fixed;
+	  background-repeat: no-repeat; 
+	  
+	  
+	  }
+	  
+      html, body {
+      min-height: 100%;
+	  
+      }
+      body, div, form, input, select, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: monospace, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      color: #ff9100;
+      }
+      h1 {
+      margin: 0;
+      font-weight: 400;
+      }
+      h3 {
+      margin: 10px 0;
+      color: #ff9100;
+      }
+      .main-block {
+      display: flex;
+      justify-content: start;
+      align-items: left;
+		padding-top: 265px;
+      }
+      form {
+      width: 100%;
+      padding: 1px;
+	  align-items: left;
+	  justify-content: start;
+	  	 
+	 min-height: 100%;
+
+      }
+      fieldset {
+      border: none;
+      border-top: 1px solid #c76700;
+      }
+
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+
+}
+input {
+  display: inline-block;
+  float: left;
+
+}
+
+.ToHitOutput, .ToWoundOutput,.ArmourSaveOutput {
+font-size: 25px;
+text-indent: 35px;
+line-height: 1;
+}​
+
+
+
+ }
+@media (min-width:961px)  { 
+
+	
+
+	  body {background-color: #332e2b;
+	 
+ 	 background-image: url(4.png);
+	  background-size: cover;
+	  background-attachment: fixed;
+	  background-repeat: no-repeat; 
+	  
+	  
+	  }
+	  
+      html, body {
+      min-height: 100%;
+	  
+      }
+      body, div, form, input, select, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: monospace, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #ff9100;
+      }
+      h1 {
+      margin: 0;
+      font-weight: 400;
+      }
+      h3 {
+      margin: 10px 0;
+      color: #ff9100;
+      }
+      .main-block {
+      display: flex;
+      justify-content: start;
+      align-items: left;
+		padding-top: 265px;
+      }
+      form {
+      width: 100%;
+      padding: 1px;
+	  align-items: left;
+	  justify-content: start;
+	  	 
+	 min-height: 100%;
+
+      }
+      fieldset {
+      border: none;
+      border-top: 1px solid #c76700;
+      }
+
+
+
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+
+}
+input {
+  display: inline-block;
+  float: left;
+
+}
+
+.ToHitOutput, .ToWoundOutput,.ArmourSaveOutput {
+font-size: 25px;
+text-indent: 35px;
+line-height: 2;
+}​
+
+
+ }
+@media (min-width:1025px) { 
+
+
+	
+
+	  body {background-color: #332e2b;
+	 
+ 	 background-image: url(4.png);
+	  background-size: cover;
+	  background-attachment: fixed;
+	  background-repeat: no-repeat; 
+	  
+	  
+	  }
+	  
+      html, body {
+      min-height: 100%;
+	  
+      }
+      body, div, form, input, select, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: monospace, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #ff9100;
+      }
+      h1 {
+      margin: 0;
+      font-weight: 400;
+      }
+      h3 {
+      margin: 10px 0;
+      color: #ff9100;
+      }
+      .main-block {
+      display: flex;
+      justify-content: start;
+      align-items: left;
+		padding-top: 265px;
+      }
+      form {
+      width: 100%;
+      padding: 1px;
+	  align-items: left;
+	  justify-content: start;
+	  	 
+	 min-height: 100%;
+
+      }
+      fieldset {
+      border: none;
+      border-top: 1px solid #c76700;
+      }
+
+
+
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+
+}
+input {
+  display: inline-block;
+  float: left;
+
+}
+
+.ToHitOutput, .ToWoundOutput,.ArmourSaveOutput {
+font-size: 25px;
+text-indent: 35px;
+line-height: 2;
+}​
+
+
+
+}
+
+@media (min-width:1281px) { 
+
+
+
+
+	
+
+	  body {background-color: #332e2b;
+	 
+ 	 background-image: url(4.png);
+	  background-size: cover;
+	  background-attachment: fixed;
+	  background-repeat: no-repeat; 
+	  
+	  
+	  }
+	  
+      html, body {
+      min-height: 100%;
+	  
+      }
+      body, div, form, input, select, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: monospace, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #ff9100;
+      }
+      h1 {
+      margin: 0;
+      font-weight: 400;
+      }
+      h3 {
+      margin: 10px 0;
+      color: #ff9100;
+      }
+      .main-block {
+      display: flex;
+      justify-content: start;
+      align-items: left;
+		padding-top: 265px;
+      }
+      form {
+      width: 100%;
+      padding: 1px;
+	  align-items: left;
+	  justify-content: start;
+	  	 
+	 min-height: 100%;
+
+      }
+      fieldset {
+      border: none;
+      border-top: 1px solid #c76700;
+      }
+
+
+
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+
+}
+input {
+  display: inline-block;
+  float: left;
+
+}
+
+.ToHitOutput, .ToWoundOutput,.ArmourSaveOutput {
+font-size: 25px;
+text-indent: 35px;
+line-height: 2;
+}​
+
+
+
+
+ }
+
+
+
+  </style>
