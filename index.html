@@ -75,10 +75,6 @@ function ToHit() {
 		  
 
 	let ToHitOutputCalc = parseFloat(BS) - parseFloat(PositiveToHitMod) + parseFloat(NegativeToHitMod);
-	if (BS == "")
-	{
-		document.getElementsByClassName("ToHitOutput")[0].innerHTML = "";
-	}
 	
 	if (parseFloat(ToHitOutputCalc) < 2)
 	{
