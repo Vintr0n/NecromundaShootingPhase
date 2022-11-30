@@ -75,6 +75,10 @@ function ToHit() {
 		  
 
 	let ToHitOutputCalc = parseFloat(BS) - parseFloat(PositiveToHitMod) + parseFloat(NegativeToHitMod);
+		  
+	if (BS == ""){
+	BS == 0;
+	}
 	
 	if (parseFloat(ToHitOutputCalc) < 2)
 	{
