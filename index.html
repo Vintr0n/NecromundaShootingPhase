@@ -18,9 +18,9 @@
           <h3>Roll to hit</h3>
         </legend>
         <div  class="ToHit">
-          <div><label>Balistic Skills (BS):</label><input type="text" id="BS" value="0" pattern="\d*" maxlength="1" onkeyup="ToHit();"></div>
-          <div><label title="Aim, Mono-sight">Positive to hit modifier:</label><input type="text" id="PositiveToHitMod" value="0" pattern="\d*" maxlength="1" onkeyup="ToHit();"></div>
-          <div><label title="Full/partial cover">Negative to hit modifier: </label><input type="text" id="NegativeToHitMod" value="0" pattern="\d*" maxlength="1" onkeyup="ToHit();"></div>
+          <div><label>Balistic Skills (BS):</label><input type="text" id="BS" value="" pattern="\d*" maxlength="1" onkeyup="ToHit();"></div>
+          <div><label title="Aim, Mono-sight">Positive to hit modifier:</label><input type="text" id="PositiveToHitMod" value="" pattern="\d*" maxlength="1" onkeyup="ToHit();"></div>
+          <div><label title="Full/partial cover">Negative to hit modifier: </label><input type="text" id="NegativeToHitMod" value="" pattern="\d*" maxlength="1" onkeyup="ToHit();"></div>
 		  <div class="ToHitOutput"></div>
         </div>
       </fieldset>
@@ -30,8 +30,8 @@
           <h3>Roll to wound</h3>
         </legend>
         <div class="ToWound">
-          <div><label>Stength of weapon:</label><input type="text" id="WS" value="0" pattern="\d*" maxlength="2" onkeyup="ToWound();"></div>
-          <div><label>Toughness of target:</label><input type="text" id="Toughness" value="0" pattern="\d*" maxlength="2" onkeyup="ToWound();"></div>
+          <div><label>Stength of weapon:</label><input type="text" id="WS" value="" pattern="\d*" maxlength="2" onkeyup="ToWound();"></div>
+          <div><label>Toughness of target:</label><input type="text" id="Toughness" value="" pattern="\d*" maxlength="2" onkeyup="ToWound();"></div>
 		  <div class="ToWoundOutput"></div>
         </div>
       </fieldset>
@@ -42,8 +42,8 @@
           <h3>Save roll</h3>
         </legend>
         <div  class="ArmourSave">
-          <div><label title="A + Armored Body Glove + Mesh Armour">Target armour:</label><input type="text" id="Armour" value="0" pattern="\d*" maxlength="2" onkeyup="ArmourSave();"></div>
-          <div><label title="AP is based on the weapon">Armour Penetration (AP):</label><input type="text" id="AP" value="0" pattern="\d*" maxlength="2" onkeyup="ArmourSave();"></div>
+          <div><label title="A + Armored Body Glove + Mesh Armour">Target armour:</label><input type="text" id="Armour" value="" pattern="\d*" maxlength="2" onkeyup="ArmourSave();"></div>
+          <div><label title="AP is based on the weapon">Armour Penetration (AP):</label><input type="text" id="AP" value="" pattern="\d*" maxlength="2" onkeyup="ArmourSave();"></div>
 		  <div class="ArmourSaveOutput"></div>
         </div>
       </fieldset>
@@ -54,9 +54,9 @@
         <legend>
           <h3>Inflict damage</h3>
         </legend>
-        <div  class="ToHit">
-          <div><label>Weapon damage:</label><input type="text" name="name" ></div>
-          <div><label>Target wounds:</label><input type="text" name="name" ></div>
+        <div  class="InflictDamage">
+          <div><label>Weapon damage:</label><input type="text" name="name" pattern="\d*" maxlength="0"></div>
+          <div><label>Target wounds:</label><input type="text" name="name" " pattern="\d*" maxlength="0"></div>
         </div>
       </fieldset>
 
@@ -68,16 +68,14 @@
 <script>
 
 function ToHit() {
-//onkeyup="ToHit();"
-//<button onclick="ToHit()">Run</button>
-
-
+	
 	let BS = document.getElementById("BS").value;
 	let PositiveToHitMod = document.getElementById("PositiveToHitMod").value;
 	let NegativeToHitMod = document.getElementById("NegativeToHitMod").value;
+		  
 
 	let ToHitOutputCalc = parseFloat(BS) - parseFloat(PositiveToHitMod) + parseFloat(NegativeToHitMod);
-	if (BS == 0)
+	if (BS == "")
 	{
 		document.getElementsByClassName("ToHitOutput")[0].innerHTML = "";
 	}
