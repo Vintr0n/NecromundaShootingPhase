@@ -127,7 +127,7 @@ function ArmourSave() {
 	let AP = document.getElementById("AP").value;
 	
 	if (Armour - AP < 1){
-	document.getElementsByClassName("ArmourSaveOutput")[0].innerHTML = "No armour save can be rolled";
+	document.getElementsByClassName("ArmourSaveOutput")[0].innerHTML = "0";
 	}
 	if (Armour - AP == 1){
 	document.getElementsByClassName("ArmourSaveOutput")[0].innerHTML = "6+";
